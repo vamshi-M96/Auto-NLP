@@ -10,3 +10,15 @@ docx2txt
 PyPDF2
 openpyxl
 xgboost==2.0.3
+
+plotly
+sweetviz
+ppscore
+
+scikit-learn
+xgboost
+lightgbm
+joblib
+
+openpyxl
+setuptools
