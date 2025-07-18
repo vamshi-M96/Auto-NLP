@@ -9,5 +9,4 @@ textblob
 docx2txt
 PyPDF2
 openpyxl
-xgboost
-lgbm
+xgboost==2.0.3
