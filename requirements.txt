@@ -3,22 +3,14 @@ pandas
 numpy
 scikit-learn
 spacy
-wordcloud
-matplotlib
+xgboost==2.0.3
+lightgbm
 textblob
 docx2txt
 PyPDF2
+matplotlib
+wordcloud
 openpyxl
-xgboost==2.0.3
 
-plotly
-sweetviz
-ppscore
-
-scikit-learn
-xgboost
-lightgbm
-joblib
-
-openpyxl
-setuptools
+# ✅ Automatically install spaCy English model
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
