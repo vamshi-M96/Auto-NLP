@@ -6,12 +6,11 @@ spacy
 xgboost==2.0.3
 lightgbm
 textblob
-doc2docx
 docx2txt
+doc2docx
 PyPDF2
 matplotlib
 wordcloud
 openpyxl
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
 
-# ✅ Automatically install spaCy English model
-#en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl this is requirments.txt
