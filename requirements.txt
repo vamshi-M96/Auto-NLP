@@ -1,27 +1,28 @@
 # Core
-streamlit==1.35.0
-pandas==2.2.2
-numpy==1.26.4
-scikit-learn==1.4.2
-matplotlib==3.8.4
-wordcloud==1.9.3
+# Core packages
+streamlit
+pandas
+numpy
+scikit-learn
 
-# NLP & Text
+# NLP libraries
+nltk
+textblob
 spacy==3.7.2
-blis==0.7.11  # Ensure spaCy compatibility
-textblob==0.18.0.post0
-docx2txt==0.8
-PyPDF2==3.0.1
+blis==0.7.11
 
-# ML Libraries
+# File handling
+docx2txt
+PyPDF2
+openpyxl
+
+# Plotting
+matplotlib
+wordcloud
+
+# ML packages
 xgboost==2.0.3
-lightgbm==4.1.0
+lightgbm==4.3.0
 
-# File Handling
-openpyxl==3.1.2  # For Excel file upload
-
-# Optional - for DOC to DOCX conversion (if used)
-doc2docx==0.8.6
-
-# Safety
-protobuf==4.25.3  # For avoiding spaCy + streamlit protobuf clash
+# If using a spaCy model
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
