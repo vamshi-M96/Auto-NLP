@@ -8,10 +8,8 @@ xgboost==2.0.3
 lightgbm
 textblob
 docx2txt
-doc2docx
 PyPDF2
 matplotlib
 wordcloud
 openpyxl
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
-
+wget  # Needed to download external spaCy model
